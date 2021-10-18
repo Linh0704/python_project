@@ -1,4 +1,5 @@
+import math
 n = int(input())
-Pi = 3.14159265
+Pi = math.pi
 
 print(str(Pi)[:n+2])
