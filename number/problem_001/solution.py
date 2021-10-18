@@ -1,4 +1,4 @@
+n = int(input())
+Pi = 3.14159265
 
-
-if __name__ == '__main__':
-    pass
+print(str(Pi)[:n+2])
