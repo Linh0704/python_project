@@ -1,4 +1,5 @@
+import math
+n = int(input())
+Pi = math.pi
 
-
-if __name__ == '__main__':
-    pass
+print(str(Pi)[:n+2])
