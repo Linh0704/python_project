@@ -11,5 +11,5 @@ jobs:
     - uses: actions/checkout@v1
     - uses: ricardochaves/python-lint@master
       with:
-        python-root-list: 'python_alelo tests'
+        python-root-list: 'tests'
 
